@@ -1,0 +1,20 @@
+# Fichiers que les systèmes et les éditeurs fabriquent tout seuls
+# et qui n'ont rien à faire dans un dépôt public.
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+*.tmp
+*.swp
+*~
+.vscode/
+.idea/
+
+# Ce qui ne doit JAMAIS être publié ici :
+# les documents de travail du projet restent hors de ce dépôt.
+/textes/
+/journal/
+.env
+*.key
+*.pem

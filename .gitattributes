@@ -1,0 +1,13 @@
+# Tout est du texte, en LF : le site doit être identique
+# qu'il soit cloné depuis Windows, Linux ou un téléphone.
+* text=auto eol=lf
+*.html text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+*.svg  text eol=lf
+*.json text eol=lf
+*.webmanifest text eol=lf
+*.md   text eol=lf
+*.png  binary
+*.jpg  binary
+*.ico  binary

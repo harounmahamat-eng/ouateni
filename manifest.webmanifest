@@ -1,0 +1,27 @@
+{
+  "name": "LOUATENI — un pays avant tout",
+  "short_name": "LOUATENI",
+  "description": "Atelier d'idées sur le Tchad : une analyse à la fois, chiffrée, sourcée, traduite.",
+  "start_url": "index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4efe6",
+  "theme_color": "#c8862b",
+  "lang": "fr",
+  "dir": "ltr",
+  "categories": ["news", "education", "politics"],
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    { "name": "Analyses", "short_name": "Analyses", "url": "analyses.html" },
+    { "name": "Manifeste", "short_name": "Manifeste", "url": "manifeste.html" },
+    { "name": "Proposer une analyse", "short_name": "Agir", "url": "agir.html" }
+  ]
+}
