@@ -4,7 +4,7 @@
    bus sans réseau (et ça, au Tchad, c'est la vraie fonctionnalité).
    Stratégie : stale-while-revalidate sur le même origine.
    ============================================================ */
-var VERSION = "ouateni-v3";
+var VERSION = "ouateni-v4";
 
 var SHELL = [
   "./",
