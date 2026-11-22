@@ -4,7 +4,7 @@
 
 Site d'un **atelier d'idées sur le Tchad** : une note à la fois, avec des chiffres, des sources, trois options et un arbitrage assumé. **Ce n'est pas un parti politique**, et le site ne présente aucune candidature.
 
-- En ligne : _à publier_ (voici l'adresse Netlify après la mise en ligne)
+- En ligne : **https://louateni.vercel.app** — le dépôt est la source : chaque `git push` sur `main` redéploie la production en ~30 secondes
 - Contact : _comptes non encore ouverts — ils seront annoncés ici, pas inventés_
 
 ## Ce que le site est
@@ -33,7 +33,12 @@ Ajouter un bloc dans `content.js` en suivant `NOTE_TEMPLATE`, avec `status: "dra
 
 ## Mise en ligne
 
-N'importe quel hébergeur statique en HTTPS (Netlify, Cloudflare Pages, GitHub Pages). Glisser le dossier, ou brancher le dépôt : chaque `git push` redéploie. Après toute modification de `sw.js`, incrémenter `VERSION` dans `sw.js` pour que les téléphones re-téléchargent la coquille.
+Le site est servi par **Vercel** depuis ce dépôt (préset « Other », aucune commande de build, aucun `npm install` : les fichiers sont servis tels quels, en HTTPS, avec le service worker à la racine). N'importe quel hébergeur statique ferait la même chose — Netlify ou Cloudflare Pages acceptent le dossier tel quel.
+
+Deux règles de mise à jour :
+
+1. après toute modification de `sw.js`, incrémenter `VERSION` dans `sw.js` (actuellement `louateni-v1`) pour que les téléphones re-téléchargent la coquille ;
+2. vérifier avant de pousser : aucun fichier privé du projet ne doit entrer dans ce dépôt — la racine du dépôt est le site, point final.
 
 ## À savoir (limites assumées)
 
