@@ -4,7 +4,7 @@
    bus sans réseau (et ça, au Tchad, c'est la vraie fonctionnalité).
    Stratégie : stale-while-revalidate sur le même origine.
    ============================================================ */
-var VERSION = "ouateni-v2";
+var VERSION = "ouateni-v3";
 
 var SHELL = [
   "./",
@@ -21,6 +21,7 @@ var SHELL = [
   "assets/icon.svg",
   "assets/icon-192.png",
   "assets/icon-512.png",
+  "assets/icon-maskable-512.png",
   "assets/apple-touch-icon-180.png",
   "manifest.webmanifest"
 ];
