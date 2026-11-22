@@ -1,5 +1,5 @@
 /* ============================================================
-   LOUATENI — logique du site. Aucune dépendance, fonctionne en
+   OUATENI — logique du site. Aucune dépendance, fonctionne en
    file:// et hors ligne. Tout ce qui est stocké reste sur
    l'appareil de l'utilisateur (localStorage) : rien n'est
    téléversé, parce qu'il n'y a pas de backend — et c'est
@@ -18,7 +18,7 @@
      porte « shu » (code ISO de l'arabe tchadien) sur <html lang>. */
   var LANGS = ["fr", "shu", "ar"];
 
-  var LS = { lang: "louateni.lang", theme: "louateni.theme", leads: "louateni.leads", dismissed: "louateni.installDismissed" };
+  var LS = { lang: "ouateni.lang", theme: "ouateni.theme", leads: "ouateni.leads", dismissed: "ouateni.installDismissed" };
 
   function $(s, r) { return (r || document).querySelector(s); }
   function $$(s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); }
@@ -101,7 +101,7 @@
       else if (/^https?:\/\//i.test(v)) el.href = v;
       /* sinon : le handle reste du texte, tant que le compte n'existe pas réellement. */
     });
-    $$(".js-title-suffix").forEach(function (el) { el.textContent = B.shortName || "LOUATENI"; });
+    $$(".js-title-suffix").forEach(function (el) { el.textContent = B.shortName || "OUATENI"; });
     var meta = $('meta[property="og:title"]');
     if (meta && B.fullName) meta.setAttribute("content", B.fullName);
     var desc = $('meta[property="og:description"]');

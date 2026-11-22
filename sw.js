@@ -1,10 +1,10 @@
 /* ============================================================
-   LOUATENI — service worker : coquille du site + notes en cache.
+   OUATENI — service worker : coquille du site + notes en cache.
    Objectif : le téléphone doit pouvoir lire une analyse dans un
    bus sans réseau (et ça, au Tchad, c'est la vraie fonctionnalité).
    Stratégie : stale-while-revalidate sur le même origine.
    ============================================================ */
-var VERSION = "louateni-v1";
+var VERSION = "ouateni-v2";
 
 var SHELL = [
   "./",
@@ -19,6 +19,9 @@ var SHELL = [
   "darija.js",
   "content.js",
   "assets/icon.svg",
+  "assets/icon-192.png",
+  "assets/icon-512.png",
+  "assets/apple-touch-icon-180.png",
   "manifest.webmanifest"
 ];
 

@@ -2,13 +2,13 @@
    MARQUE — point de configuration unique.
    Changer le nom ici et sur tout le site : 3 lignes.
    (brand.shortName / brand.nameAr / brand.tagline)
-   Nom validé par le responsable du projet le 22/11/2026 : LOUATENI.
+   Nom validé par le responsable du projet le 22/11/2026 : OUATENI.
    ============================================================ */
 window.BRAND = {
   // --- Identité ---
-  shortName: "LOUATENI",
-  fullName: "LOUATENI — un pays avant tout",
-  nameAr: "لوطني",
+  shortName: "OUATENI",
+  fullName: "OUATENI — un pays avant tout",
+  nameAr: "وطني",
   tagline: "Un pays avant tout.",
   taglineAr: "وطن واحد قبل كل شيء.",
   taglineDj: "بلد واحد قبل كل شي.",
@@ -24,11 +24,11 @@ window.BRAND = {
   // --- Contacts & réseaux : identifiants RÉSERVÉS à l'avance, comptes NON encore ouverts.
   //     L'ouverture se fait avec la pièce d'identité et le numéro du responsable.
   handles: {
-    tiktok: "@louateni.tchad",
-    facebook: "louateni.tchad",
-    youtube: "@louatenitchad",
-    whatsapp_channel: "louateni-tchad",
-    x: "@louateni_tchad"
+    tiktok: "@ouateni.tchad",
+    facebook: "ouateni.tchad",
+    youtube: "@ouatenitchad",
+    whatsapp_channel: "ouateni-tchad",
+    x: "@ouateni_tchad"
   },
   contact: {
     email: "",    // ⚠ à renseigner APRÈS création de la boîte dédiée au projet

@@ -1,10 +1,10 @@
-# LOUATENI — لوطني
+# OUATENI — وطني
 
 **Un pays avant tout. / وطن واحد قبل كل شيء. / بلد واحد قبل كل شي.**
 
 Site d'un **atelier d'idées sur le Tchad** : une note à la fois, avec des chiffres, des sources, trois options et un arbitrage assumé. **Ce n'est pas un parti politique**, et le site ne présente aucune candidature.
 
-- En ligne : **https://louateni.vercel.app** — le dépôt est la source : chaque `git push` sur `main` redéploie la production en ~30 secondes
+- En ligne : **https://ouateni.vercel.app** — le dépôt est la source : chaque `git push` sur `main` redéploie la production en ~30 secondes
 - Contact : _comptes non encore ouverts — ils seront annoncés ici, pas inventés_
 
 ## Ce que le site est
@@ -37,13 +37,13 @@ Le site est servi par **Vercel** depuis ce dépôt (préset « Other », aucune 
 
 Deux règles de mise à jour :
 
-1. après toute modification de `sw.js`, incrémenter `VERSION` dans `sw.js` (actuellement `louateni-v1`) pour que les téléphones re-téléchargent la coquille ;
+1. après toute modification de `sw.js`, incrémenter `VERSION` dans `sw.js` (actuellement `ouateni-v1`) pour que les téléphones re-téléchargent la coquille ;
 2. vérifier avant de pousser : aucun fichier privé du projet ne doit entrer dans ce dépôt — la racine du dépôt est le site, point final.
 
 ## À savoir (limites assumées)
 
 1. La **دارجة** du site est une première passe : elle est intelligible, pas encore validée par un locuteur natif de N'Djamena. Le corps du manifeste reste en arabe standard jusqu'à cette relecture.
-2. Le **nom LOUATENI** n'a pas encore fait l'objet d'une recherche d'antériorité (plateformes, registre des partis, domaines `.td`/`.com`).
+2. Le **nom OUATENI** n'a pas encore fait l'objet d'une recherche d'antériorité (plateformes, registre des partis, domaines `.td`/`.com`).
 3. Les chiffres du pays ne sont **pas** encore relevés : c'est le travail éditorial, pas un défaut d'affichage.
 
 ## Licence

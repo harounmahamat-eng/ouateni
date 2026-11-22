@@ -20,10 +20,10 @@ window.I18N = {
     /* accueil */
     "hero.kicker": "Atelier d'idées · N'Djamena & diaspora",
     "hero.title": "Le Tchad n'a pas besoin de sponsors. Il a besoin de gens qui expliquent.",
-    "hero.lede": "LOUATENI prend un problème concret — l'eau, une route, une facture d'électricité, une salle de classe — et le traite jusqu'au bout : les chiffres, les options, qui perd, qui gagne, ce que ça coûte, qui doit décider.",
+    "hero.lede": "OUATENI prend un problème concret — l'eau, une route, une facture d'électricité, une salle de classe — et le traite jusqu'au bout : les chiffres, les options, qui perd, qui gagne, ce que ça coûte, qui doit décider.",
     "hero.cta1": "Lire le manifeste",
     "hero.cta2": "Voir les analyses",
-    "hero.note": "LOUATENI n'est pas un parti politique. C'est un lieu d'analyse ouvert à tous les Tchadiens, y compris ceux qui ne sont pas d'accord avec nous.",
+    "hero.note": "OUATENI n'est pas un parti politique. C'est un lieu d'analyse ouvert à tous les Tchadiens, y compris ceux qui ne sont pas d'accord avec nous.",
 
     "method.title": "Comment nous travaillons",
     "method.1.title": "1. Un problème, pas une opinion",
@@ -151,7 +151,7 @@ window.I18N = {
     "agir.contact.wa": "WhatsApp",
 
     /* commun : bannière d'installation + pied de page */
-    "install.text": "Installer LOUATENI sur ton téléphone — le site marche ensuite hors ligne.",
+    "install.text": "Installer OUATENI sur ton téléphone — le site marche ensuite hors ligne.",
     "install.go": "Installer",
     "install.later": "Plus tard",
     "foot.privacy": "Aucune donnée de ce site n'est téléversée : le formulaire reste sur ton appareil.",
@@ -172,10 +172,10 @@ window.I18N = {
     /* accueil */
     "hero.kicker": "ورشة أفكار · نجامينا والشتات",
     "hero.title": "التشاد لا تحتاج إلى مُتبنّين. تحتاج إلى من يشرح.",
-    "hero.lede": "«لوطني» يأخذ مشكلة واحدة بالاسم — الماء، طريق، فاتورة كهرباء، قسم دراسي — ويبحثها حتى النهاية: الأرقام، الخيارات، من يخسر، من يربح، كم تكلف، ومن يجب أن يقرر.",
+    "hero.lede": "«وطني» يأخذ مشكلة واحدة بالاسم — الماء، طريق، فاتورة كهرباء، قسم دراسي — ويبحثها حتى النهاية: الأرقام، الخيارات، من يخسر، من يربح، كم تكلف، ومن يجب أن يقرر.",
     "hero.cta1": "اقرأ الميثاق",
     "hero.cta2": "التحاليل",
-    "hero.note": "«لوطني» ليس حزبًا سياسيًا. هو فضاء تحليل مفتوح لكل التشاديين، بمن فيهم من لا يتفق معنا.",
+    "hero.note": "«وطني» ليس حزبًا سياسيًا. هو فضاء تحليل مفتوح لكل التشاديين، بمن فيهم من لا يتفق معنا.",
 
     "method.title": "كيف نعمل",
     "method.1.title": "١. مشكلة، لا رأي",
@@ -303,7 +303,7 @@ window.I18N = {
     "agir.contact.wa": "واتساب",
 
     /* عام: شريط التثبيت والتذييل */
-    "install.text": "ثبّت «لوطني» على هاتفك — يعمل الموقع بعدها بلا إنترنت.",
+    "install.text": "ثبّت «وطني» على هاتفك — يعمل الموقع بعدها بلا إنترنت.",
     "install.go": "ثبّت",
     "install.later": "لاحقًا",
     "foot.privacy": "لا يُرفع أي بيان من هذا الموقع: النموذج يبقى على جهازك.",
