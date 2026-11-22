@@ -20,6 +20,9 @@
      le cycle passe à français → العربية : tout est en arabe standard,
      aucun texte n'est supprimé, seule la دارجة sort du menu. */
   var LANGS = (window.DARIJA_ACTIF === false) ? ["fr", "ar"] : ["fr", "shu", "ar"];
+  /* Le bouton affiche le nom de la langue vers laquelle il envoie — donc
+     toujours juste, même quand la دارجة est sortie du cycle. */
+  var LANG_NAME = { fr: "Français", shu: "دارجة", ar: "العربية" };
 
   var LS = { lang: "ouateni.lang", theme: "ouateni.theme", leads: "ouateni.leads", dismissed: "ouateni.installDismissed" };
 
@@ -63,7 +66,7 @@
     $$("[data-i18n-ph]").forEach(function (el) { el.placeholder = tr(el.getAttribute("data-i18n-ph")); });
     $$("[data-i18n-label]").forEach(function (el) { el.setAttribute("aria-label", tr(el.getAttribute("data-i18n-label"))); });
     var btn = $("#langBtn");
-    if (btn) btn.textContent = tr("lang.label");
+    if (btn) btn.textContent = LANG_NAME[nextLang(l)] || tr("lang.label");
     applyBrand();
     renderFilters();
     renderNotes();
