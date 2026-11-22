@@ -19,8 +19,8 @@ window.NOTES = [
     },
     lede: {
       fr: "Le problème n'est pas « il manque de l'eau au Tchad ». Le problème est que le prix, la distance et la panne ne tombent jamais sur les mêmes personnes. Cette note apprend à compter l'eau comme on compte un budget de ménage.",
-      ar: "المشكلة ليست «قلة الماء في التشاد»، بل أن السعر والمسافة والعطل لا تصيب الناس أنفسهم. هذه المذكرة تتعلّم كيف نحسب الماء كما نحسب مصروف البيت.",
-      shu: "المشكلة مو «إنو المية ناقصة في التشاد». المشكلة إنو الثمن والمسافة والعطلة ما بتنزل على نفس الناس. الورقة دي بتعلّمنا نحسّب المية زي ما نحسّب مصروف البيت."
+      ar: "المشكلة ليست «قلة الماء في تشاد»، بل أن السعر والمسافة والعطل لا تصيب الناس أنفسهم. هذه المذكرة تتعلّم كيف نحسب الماء كما نحسب مصروف البيت.",
+      shu: "المشكلة مو «إنو المية ناقصة في تشاد». المشكلة إنو الثمن والمسافة والعطلة ما بتنزل على نفس الناس. الورقة دي بتعلّمنا نحسّب المية زي ما نحسّب مصروف البيت."
     },
     problem: {
       fr: "Dans une même ville, trois régimes coexistent : le raccordement payé au compteur, le branchement informel négocié avec un agent, et l'achat au kiosque ou au carriedresseur. Le troisième est le plus cher au litre et le plus courant chez les ménages les plus pauvres. Avant toute promesse d'« eau pour tous », il faut connaître ce prix réel au litre, quartier par quartier.",
@@ -62,7 +62,7 @@ window.NOTES = [
       ar: "موقفنا: ننشر أولًا السعر الحقيقي لكل ليتر حيًّا حيًّا — فأكثر ما يهزّ البلد ليس شعارًا بل جدولًا. ثم نقترح سقف سعر وصندوق صيانة بالأرقام."
     },
     sources: [
-      { label: { fr: "Office national de la statistique (Tchad) — enquêtes ménages", ar: "الجهاز الوطني للإحصاء (التشاد) — مسح الأسر" }, url: "" },
+      { label: { fr: "Office national de la statistique (Tchad) — enquêtes ménages", ar: "الجهاز الوطني للإحصاء (تشاد) — مسح الأسر" }, url: "" },
       { label: { fr: "Programme pays / eau potable — indicateurs par région (Banque mondiale, BAD, PNUD)", ar: "برنامج المياه الصالحة — مؤشرات بإقليم (البنك الدولي، البنك الأفريقي، PNUD)" }, url: "" },
       { label: { fr: "Relevé terrain maison : 5 points de vente, 3 quartiers, une même semaine", ar: "رصد محلي: 5 نقاط بيع في 3 أحياء في الأسبوع نفسه" }, url: "" }
     ]
@@ -205,8 +205,8 @@ window.NOTES = [
     },
     lede: {
       fr: "Au Tchad comme chez ses voisins sans littoral, le prix du litre décide du prix du taxi, du transport de l'eau, du marché et du cercueil. Cette note sert à ne jamais dire « le carburant est cher » sans dire : par rapport à quel revenu, et avec quel effet sur quel panier.",
-      ar: "في التشاد، كما في بقية الدول المجاورة التي لا منفذ لها على البحر، سعر الليتر يحسم سعر سيارة الأجرة ونقل الماء وثمن السوق حتى الكفن. هذه المذكرة حتى لا نقول «الوقود غالي» دون أن نقول: مقابل أي دخل، وبأي أثر على السلة.",
-      shu: "في التشاد، زي ما في الدول الجيران اللي ما عندها بحر، سعر الليتر هو اللي يحدّد ثمن الركشة ونقل المية وثمن السوق وحتى الكفن. الورقة دي عشان ما نقول «الوقود غالي» بلا ما نقول: مقابل أي دخل، وعلى شنو يؤثر في القفة."
+      ar: "في تشاد، كما في بقية الدول المجاورة التي لا منفذ لها على البحر، سعر الليتر يحسم سعر سيارة الأجرة ونقل الماء وثمن السوق حتى الكفن. هذه المذكرة حتى لا نقول «الوقود غالي» دون أن نقول: مقابل أي دخل، وبأي أثر على السلة.",
+      shu: "في تشاد، زي ما في الدول الجيران اللي ما عندها بحر، سعر الليتر هو اللي يحدّد ثمن الركشة ونقل المية وثمن السوق وحتى الكفن. الورقة دي عشان ما نقول «الوقود غالي» بلا ما نقول: مقابل أي دخل، وعلى شنو يؤثر في القفة."
     },
     problem: {
       fr: "Le débat sur le prix à la pompe est capturé par deux phrases fausses : « il faut baisser le prix » (sans dire qui paie la différence) et « c'est le marché » (sans dire que le marché intérieur est approvisionné par un nombre très limité d'opérateurs). Le vrai sujet est triple : le coût logistique d'amener le carburant jusqu'à N'Djamena et plus loin, la structure du réseau de distribution, et l'absence de tout amortisseur pour les ménages qui dépensent une part énorme de leur jour dans le transport.",
