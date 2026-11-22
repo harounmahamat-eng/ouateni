@@ -20,7 +20,7 @@ window.NOTES = [
     lede: {
       fr: "Le problème n'est pas « il manque de l'eau au Tchad ». Le problème est que le prix, la distance et la panne ne tombent jamais sur les mêmes personnes. Cette note apprend à compter l'eau comme on compte un budget de ménage.",
       ar: "المشكلة ليست «قلة الماء في التشاد»، بل أن السعر والمسافة والعطل لا تصيب الناس أنفسهم. هذه المذكرة تتعلّم كيف نحسب الماء كما نحسب مصروف البيت.",
-      shu: "المشكلة مو «إنو المية ناقصة في التشاد». المشكلة إنو الثمن والمسافة والعطلة ما بيّطو على نفس الناس. الورقة دي بتعلّمنا نحسّب المية زي ما نحسّب مصروف البيت."
+      shu: "المشكلة مو «إنو المية ناقصة في التشاد». المشكلة إنو الثمن والمسافة والعطلة ما بتنزل على نفس الناس. الورقة دي بتعلّمنا نحسّب المية زي ما نحسّب مصروف البيت."
     },
     problem: {
       fr: "Dans une même ville, trois régimes coexistent : le raccordement payé au compteur, le branchement informel négocié avec un agent, et l'achat au kiosque ou au carriedresseur. Le troisième est le plus cher au litre et le plus courant chez les ménages les plus pauvres. Avant toute promesse d'« eau pour tous », il faut connaître ce prix réel au litre, quartier par quartier.",
@@ -77,7 +77,7 @@ window.NOTES = [
     title: {
       fr: "École : quelle langue d'enseignement, pour quel métier, à quel coût ?",
       ar: "المدرسة: أي لغة تعليم، ولأي مهنة، وبأي كلفة؟",
-      shu: "المدرسة: أنه لسان نعلّم بيه، لأي مهنة، بكلفة قدّيش؟"
+      shu: "المدرسة: أي لسان نعلّم بيه، لأي مهنة، وبكلفة قدّيش؟"
     },
     lede: {
       fr: "Le débat langue arabe / langue française / langues nationales est le plus violent du pays parce qu'il décide qui a accès à l'écrit, donc à l'administration, donc à l'emploi. Cette note le traite comme un problème de coût et de séquence, pas comme une guerre de drapeaux.",

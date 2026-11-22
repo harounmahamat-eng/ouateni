@@ -10,13 +10,16 @@
 
   var B = window.BRAND || {};
   var T = window.I18N || { fr: {}, ar: {} };
-  var D = (window.DARIJA && window.DARIJA.shu) || {};
+  var D = (window.DARIJA_ACTIF !== false && window.DARIJA && window.DARIJA.shu) || {};
   var NOTES = window.NOTES || [];
 
   /* trois langues : français, دارجة tchadienne, arabe standard.
      La دارجة na pas de code HTML officiel utilisable partout : on
-     porte « shu » (code ISO de l'arabe tchadien) sur <html lang>. */
-  var LANGS = ["fr", "shu", "ar"];
+     porte « shu » (code ISO de l'arabe tchadien) sur <html lang>.
+     Si window.DARIJA_ACTIF === false (interrupteur dans darija.js),
+     le cycle passe à français → العربية : tout est en arabe standard,
+     aucun texte n'est supprimé, seule la دارجة sort du menu. */
+  var LANGS = (window.DARIJA_ACTIF === false) ? ["fr", "ar"] : ["fr", "shu", "ar"];
 
   var LS = { lang: "ouateni.lang", theme: "ouateni.theme", leads: "ouateni.leads", dismissed: "ouateni.installDismissed" };
 
